@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(253, 253, 254);
+    color: #fff;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+#main-head{
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
+}
+#sub-head{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+#speed{
+    color: aqua;
+    font-weight: bold;
+}
